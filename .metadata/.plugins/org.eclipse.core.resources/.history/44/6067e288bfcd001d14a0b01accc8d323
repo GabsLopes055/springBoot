@@ -1,0 +1,5 @@
+package exemplo_injecao_dependencia.service;
+
+public class AtivacaoClienteService {
+
+}

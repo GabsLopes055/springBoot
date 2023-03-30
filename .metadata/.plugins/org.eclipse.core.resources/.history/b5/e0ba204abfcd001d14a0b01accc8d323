@@ -1,0 +1,19 @@
+package exemplo_injecao_dependencia;
+
+import java.math.BigDecimal;
+
+public class Produto {
+
+	private String nome;
+	private BigDecimal valorTotal;
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public BigDecimal getValorTotal() {
+		return valorTotal;
+	}	
+	
+	
+}

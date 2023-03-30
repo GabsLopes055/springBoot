@@ -1,0 +1,7 @@
+package exemplo_injecao_dependencia.service;
+
+public class AtivacaoClienteService {
+
+	private cliente = new Cliente();
+	
+}

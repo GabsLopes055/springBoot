@@ -1,0 +1,12 @@
+package exemplo_injecao_dependencia.noteficacao;
+
+import exemplo_injecao_dependencia.Cliente;
+
+public class NotificacaoSMS {
+	
+	public void notificarSMS(Cliente cliente, String mensagem) {
+		System.out.print("Notificando usuário: %s. Atraves do numero: %s: %s\n",
+				cliente.getNome(), cliente.getTelefone(), mensagem);
+	}
+	
+}

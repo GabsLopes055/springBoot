@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;exemplo_injecao_dependencia.Produto.telefone&apos; in &apos;exemplo_injecao_dependencia.Produto&apos;&#x0D;&#x0A;- Original project: &apos;exemplo_injecao_dependencia&apos;&#x0D;&#x0A;- Original element: &apos;exemplo_injecao_dependencia.Produto.telefone&apos;&#x0D;&#x0A;- Getter method name: &apos;getTelefone&apos;&#x0D;&#x0A;- Setter method name: &apos;setTelefone&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;telefone&apos;" flags="589830" getter="getTelefone" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;exemplo_injecao_dependencia{Produto.java[Produto^telefone" insertion="6" setter="setTelefone" stamp="1680045450896" version="1.0" visibility="1"/>
+</session>

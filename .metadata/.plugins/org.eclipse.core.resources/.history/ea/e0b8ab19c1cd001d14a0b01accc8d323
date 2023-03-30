@@ -1,0 +1,13 @@
+package exemplo_injecao_dependencia.main;
+
+import exemplo_injecao_dependencia.Cliente;
+
+public class main {
+	
+	public static void main(String[] args) {
+		
+		Cliente cliente = new Cliente("Gabriel", "lopes@gmail.com", false, "61991139141");
+		
+	}
+	
+}

@@ -1,0 +1,18 @@
+package exemplo_injecao_dependencia.main;
+
+import exemplo_injecao_dependencia.Cliente;
+import exemplo_injecao_dependencia.noteficacao.NotificacaoCliente;
+
+public class main {
+	
+	public static void main(String[] args) {
+		
+		Cliente Gabriel = new Cliente("Gabriel", "lopes@gmail.com", false, "61991139141");
+		NotificacaoCliente notificarEmail = new NotificacaoCliente();
+		
+		notificarEmail.notificar(Gabriel, "Cadastro Ativo");
+		
+		Cliente 
+	}
+	
+}

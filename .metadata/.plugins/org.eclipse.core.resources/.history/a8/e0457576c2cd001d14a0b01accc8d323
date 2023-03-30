@@ -1,0 +1,16 @@
+package exemplo_injecao_dependencia.service;
+
+import exemplo_injecao_dependencia.Cliente;
+import exemplo_injecao_dependencia.noteficacao.NotificacaoCliente;
+
+public class AtivacaoClienteService {
+
+	public void ativar(Cliente cliente) {
+		cliente.ativar();
+		
+		NotificacaoCliente notificacao = new NotificacaoCliente();
+		
+		notificacao.notificar(cliente, "Seu cadastro esta ativo !");
+	}
+	
+}

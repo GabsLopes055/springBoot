@@ -1,0 +1,12 @@
+package com.algaworks.algafood;
+
+public class MeuPrimeiroController {
+	public static void main(String[] args) {
+		
+		public String hello() {
+			return "Hello!";
+		}
+		
+		
+	}
+}

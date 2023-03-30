@@ -1,0 +1,9 @@
+package exemplo_injecao_dependencia.noteficacao;
+
+public class NotificacaoCliente {
+
+	public void notificar(Cliente cliente, String mensagem) {
+		
+	}
+	
+}

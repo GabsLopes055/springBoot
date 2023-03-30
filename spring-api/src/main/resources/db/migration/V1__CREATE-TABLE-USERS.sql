@@ -1,0 +1,8 @@
+CREATE TABLE CLIENTE(
+	ID BIGINT NOT NULL auto_increment,
+    NOME VARCHAR(255) NOT NULL,
+    EMAIL VARCHAR(255) NOT NULL, 
+    TELEFONE VARCHAR(20) NOT NULL,
+    
+    primary key (ID)
+);
